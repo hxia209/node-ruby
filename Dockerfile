@@ -1,4 +1,4 @@
-FROM ubi8/ruby-2.6
+FROM registry.access.redhat.com/ubi8/ruby-2.6
 
 ENV NODEJS_VERSION=12 \
     NPM_RUN=start \
